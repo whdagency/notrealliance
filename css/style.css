@@ -2589,6 +2589,9 @@ p {
 
 .hero-content-left h1 {
   color: var(--white-color);
+  margin-top: 0 !important;
+  line-height: 1.1;
+  font-size: 4.1rem;
 }
 
 .hero-content-left .primary-outline {
