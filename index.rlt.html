@@ -397,7 +397,7 @@
                         <div class="cta-box bg-white rounded-3 theme-shadow wow fadeInUp" data-wow-delay="0.4s">
                             <div class="d-flex gap-3 flex-wrap flex-sm-nowrap"> 
                                 <div class="text-end">
-                                    <h6 class="mb-20">الوكالة التي لا غنى عنها لعام 2023</h6>
+                                    <h6 class="mb-20">الوكالة التي لا غنى عنها لعام <div id="date" style="display: inline-block;"></div></h6>
                                     <p class="mb-0">
                                         دعنا نوضح لك سبب اعترافنا بأننا أفضل وكالة تقدم حلولاً لا مثيل لها تعزز نجاحك.
                                     </p>
@@ -765,7 +765,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="copyright-text text-end">
-                        <p class="mb-0 text-white "><span class="font-albert">.2023&copy; Notre Alliance</span>كل الحقوق محفوظة ل</p>
+                        <p class="mb-0 text-white "><span class="font-albert"><div id="date" style="display: inline-block;"></div> &copy; Notre Alliance</span>كل الحقوق محفوظة ل</p>
                     </div>
                 </div>
             </div>
@@ -797,5 +797,11 @@
     <script src="js/popper.min.js"></script>
     <script src="js/tilt-js.js"></script>
     <script src="js/script.js"></script>
+
+    <script type="text/javascript">
+        const date_year = document.getElementById("date");
+        const d = new Date();
+        date_year.innerHTML = d - 2020;
+    </script>
   </body>
 </html>

@@ -1,11 +1,4 @@
-/*
-Theme Name: Crete - Personal Portfolio HTML Template
-Author: Mate_Themes
-Author URI: https://themeforest.net/user/mate_themes/
-Tags: portfolio, agency, personal, blog, html5 template, portfolio template
-Description: Crete - Personal Portfolio HTML5 Template. 
-Version: 1.1.0
-*/
+
 /************************************** base css **************************************/
 @import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;300;400;500;600;700;800;900&display=swap");
 
@@ -42,6 +35,24 @@ Version: 1.1.0
   --hm4-shadow: 0px 22px 67px rgba(207, 202, 186, 0.4);
 }
 
+li, a {
+  transition: background 0.35s ease;
+}
+
+/*Base*/
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
 body {
   margin: 0;
   font-family: var(--template-font);
@@ -64,6 +75,7 @@ a {
   -webkit-transition: var(--transition-base);
   -o-transition: var(--transition-base);
   transition: var(--transition-base);
+  color: in;
 }
 
 ul {
@@ -2163,7 +2175,7 @@ p {
 }
 
 .footer-section .circle-shape-1 {
-  background-color: #66D5EC;
+  background-color: #E4D733;
   left: -150px;
 }
 
